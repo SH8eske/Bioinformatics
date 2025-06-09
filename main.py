@@ -163,7 +163,7 @@ def main():
             results.append(gene_result)
 
     # Сохранение результатов
-    output_file = input("Введите имя файла для сохранения результатов: ")
+    output_file = input("Введите имя файла для сохранения результатов в формате ""результаты.csv"" ")
     save_results(results, output_file)
     print(f"Анализ завершен. Результаты сохранены в {output_file}")
 
