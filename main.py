@@ -168,5 +168,7 @@ def main():
     print(f"Анализ завершен. Результаты сохранены в {output_file}")
 
 
+
+
 if __name__ == "__main__":
     main()
