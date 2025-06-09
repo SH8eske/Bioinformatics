@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy import stats
-
+# импорт необходимых для работы библиотек
 
 def load_data(file_path):
     """
@@ -82,7 +82,7 @@ def perform_wilcoxon_test(norm_vals, tumor_vals):
 
 def analyze_gene(gene_id, norm_vals, tumor_vals):
     """
-    Анализирует данные для одного гена, выполняя все статистические тесты.
+    Анализирует данные для одного гена, выполняя все тесты.
     Вход:
     - gene_id: идентификатор гена
     - norm_vals: массив нормальных значений
